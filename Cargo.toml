@@ -5,3 +5,5 @@ authors = ["Chad Baxter <cbaxter@mail.umw.edu>"]
 edition = "2018"
 
 [dependencies]
+tempdir = "0.3.7"
+zip = "0.5.0"
