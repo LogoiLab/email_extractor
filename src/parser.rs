@@ -1,3 +1,5 @@
-pub fn parse(path: String) {
-    unimplemented!();
+use crate::extractor::Document;
+
+pub fn parse(mut document: Document) -> Document {
+    document
 }
