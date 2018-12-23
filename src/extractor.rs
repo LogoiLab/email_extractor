@@ -1,11 +1,8 @@
-use std::fs::create_dir;
 use std::fs::File;
 use std::io::prelude::*;
-use std::io::{self, Write, BufReader};
-use std::path::*;
+use std::io::{Write, BufReader};
 
 use tempdir::*;
-use zip::*;
 
 pub struct Document {
     pub path: String,
